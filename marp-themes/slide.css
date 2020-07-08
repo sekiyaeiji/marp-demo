@@ -1,0 +1,59 @@
+/* @theme slide */
+
+@import 'default';
+
+section {
+  font-size: 48px;
+  font-family: "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  line-height: 1.8;
+  color: #eee;
+}
+
+section h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #eee;
+}
+
+section header {
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #999;
+}
+
+section footer {
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #999;
+}
+
+section.template-slide-navy {
+  background: linear-gradient(to bottom, #0d0c21 0%,#141438 89%,#262556 100%);
+}
+
+section.template-slide-red {
+  background: linear-gradient(to bottom, #210c0c 0%,#381414 89%,#542525 100%);
+}
+
+section.template-slide-green {
+  background: linear-gradient(to bottom, #071106 0%,#0e210b 89%,#1b3d1b 100%);
+}
+
+section.template-slide-grey {
+  background: linear-gradient(to bottom, #111 0%,#191919 89%,#262626 100%);
+}
+
+section.template-slide-white {
+  background: linear-gradient(to bottom, #bbb 0%,#c6c6c6 89%,#fff 100%);
+  color: #111;
+}
+
+section.template-slide-white header {
+  color: #333;
+}
+
+section.template-slide-white footer {
+  color: #333;
+}
